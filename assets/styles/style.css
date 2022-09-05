@@ -1,8 +1,8 @@
 h1{ display:grid;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
+    font-style: lighter;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 90px;
     line-height: 150%;
     width:max-content;
     letter-spacing: -4px;
@@ -37,7 +37,7 @@ main{
     /*justify-content: space-between;
     align-content: center;*/
 }  
-button{
+span{
     display:grid;
 /* box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -48,6 +48,8 @@ button{
     grid-template-columns: repeat( 22, minmax(50px, 1fr) );
     grid-column: 2/3;
     grid-row: 5/6;
+    background-color: none;
+    color: none;
     /*grid-row: 5/6;
     grid-column: 2/3;*/}
 
@@ -59,37 +61,33 @@ a{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 100%;
+    font-size: 25px;
+    line-height: 150%;
     grid-column: 2/6;
-    grid-row: 8/10;
+    grid-row: 8/9;
     opacity: 0.9;
     color:aliceblue;
+    justify-content: center;
+    align-content:center;
+    text-decoration: none;
     box-shadow: 4px 4px 4px 4px rgb(150, 23, 205);
 }
 /*.consult{
     grid-column: 2/3;
     grid-row: 4/7;    
 }*/
-.svg{
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 70px;
-    grid-row: 6/7;
-    grid-column: 2/10;
-    justify-content: space-between;
-    align-content: space-between;
-}
 .footer{
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 70px;
+    grid-template-rows: 50px;
     grid-row: 6/7;
-    grid-column: 2/10;
+    grid-column: 2/6;
+    gap: 10px;
     justify-content: space-between;
     align-content: space-between;
 }
 .logo1{
     grid-row: 6/7;
-    grid-column: 2/3;
+    grid-column: 3/4;
 }
 .logo2{
     grid-row: 6/7;
