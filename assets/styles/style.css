@@ -12,7 +12,11 @@ h1{ display:grid;
     grid-column: 1/10;
     justify-content: start;
     align-content: flex-end;
-    color:#FFFFFF;
+    background-image: linear-gradient(to left, #553c9a, #b393d3, #6d4eab);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /*color:#FFFFFF;*/
     }
 header{
     justify-content: space-between;
@@ -157,7 +161,10 @@ a{
     grid-column: 2/4;
     justify-content: center;
     align-content: flex-start;
-    color:#4646F9;
+    background-image: linear-gradient(to left, #521fdf, #5e1f9e, #6d28f7);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 .safe{
     grid-row: 3/4;
