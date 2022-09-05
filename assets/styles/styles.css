@@ -17,35 +17,11 @@ main{
     align-content: center;*/
 } 
 .footer{
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: 50px;
-    grid-row: 3/4;
-    grid-column: 2/6;
-    gap: 10px;
-    justify-content: space-around;
-    align-content: space-between;
-} 
-.svg{
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 50px;
-    grid-row: 6/7;
-    grid-column: 3/4;
-    justify-content: space-between;
-    align-content: space-between;
-}
-.logo1{
-    grid-row: 6/7;
-    grid-column: 3/4;
-}
-.logo2{
-    grid-row: 6/7;
-    grid-column: 6/10;
-}
-.logo3{
-    grid-row: 6/7;
-    grid-column: 6/7;
-}
-.logo4{
-    grid-row: 6/7;
-    grid-column: 8/10;
-}
+    grid-row: 3/4;
+    grid-column: 2/10;
+    justify-content: space-around;
+    align-content: space-between;       ;
+} 
+
