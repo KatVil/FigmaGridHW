@@ -76,7 +76,7 @@ a{
     grid-column: 2/3;
     grid-row: 4/7;    
 }*/
-.footer{
+/*.footer{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 70px;
     grid-row: 5/6;
@@ -99,6 +99,31 @@ a{
 .logo4{
     grid-row: 6/7;
     grid-column: 8/10;
+}*/
+.footer {
+    display: grid;
+    grid-column: 1/4;
+    align-items: center;
+}
+
+.logo1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.logo2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.logo3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.logo4 {
+    grid-column: 4/5;
+    grid-row: 1/2;
 }
 .gridcontainer{
     display:grid;
@@ -158,5 +183,8 @@ a{
     cursor: pointer;
 }
 .consult:hover {
+    cursor: pointer;
+}
+.logo1:hover,.logo2:hover,.logo3:hover,.logo4:hover{
     cursor: pointer;
 }
